@@ -5,12 +5,12 @@ import random
 import sys
 import time
 
-import c3D2 as conv3d2
-import c3D3 as conv3d3
-import c3D_main as conv3d1
+import models.c3D2 as conv3d2
+import models.c3D3 as conv3d3
+import models.c3D_main as conv3d1
 import numpy as np
 import tensorflow as tf
-from AdamWOptimizer import create_optimizer
+from models.AdamWOptimizer import create_optimizer
 from tensorflow.keras import *
 from tensorflow.keras.layers import *
 from tensorflow.keras.models import *

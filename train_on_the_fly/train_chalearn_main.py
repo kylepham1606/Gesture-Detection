@@ -5,15 +5,16 @@ import random
 import sys
 import time
 
-from resnext import ResNeXt
-import c3D as conv3d4
-import c3D2 as conv3d2
-import c3D3 as conv3d3
-import c3D_main as conv3d1
+from models.AdamWOptimizer import create_optimizer
+from models.resnext import ResNeXt
+import models.c3D as conv3d4
+import models.c3D2 as conv3d2
+import models.c3D3 as conv3d3
+import models.c3D_main as conv3d1
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-from chalearn_utils import data_augmentation
+from train_on_the_fly.chalearn_utils import data_augmentation
 from tensorflow.python.client import device_lib
 
 

@@ -7,11 +7,11 @@ import time
 
 import numpy as np
 import pandas as pd
-import resnet_10 as resnet1
-import resnet_10_copy as resnet2
-import resnet_10_copy2 as resnet3
+import models.resnet_10 as resnet1
+import models.resnet_10_copy as resnet2
+import models.resnet_10_copy2 as resnet3
 import tensorflow as tf
-import resnet_utils as utils
+import train_on_the_fly.resnet_utils as utils
 from tensorflow.python.client import device_lib
 
 

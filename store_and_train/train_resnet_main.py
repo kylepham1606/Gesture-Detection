@@ -6,9 +6,9 @@ import sys
 import time
 
 import numpy as np
-import resnet_10 as resnet
+import models.resnet_10 as resnet
 import tensorflow as tf
-from AdamWOptimizer import create_optimizer
+from models.AdamWOptimizer import create_optimizer
 from tensorflow.python.client import device_lib
 
 
